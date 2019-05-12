@@ -17,7 +17,7 @@ end
 
 
 def valid_move(board,answer)
-  answer < 9 && answer =>
+  answer < 9 && answer >=0
 
     
     
