@@ -21,7 +21,7 @@ def valid_move(board,answer)
 end
 
 def position_taken(board, answer)
-   board[answer] !"O" && board[answer] !"X"
+   board[answer] ==!"O" && board[answer] ==!"X"
  end
 
 display_board
