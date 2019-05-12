@@ -16,3 +16,5 @@ def position
 end
 
 position
+
+def valid_move(board,[])
