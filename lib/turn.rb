@@ -3,3 +3,5 @@ def display_board(board)
 end
 
 number = 7
+
+puts display_board(7)
