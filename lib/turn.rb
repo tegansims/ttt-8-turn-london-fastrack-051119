@@ -18,7 +18,7 @@ end
 
 def valid_move(board,answer)
   answer < 9 && answer >=0
-  board[answer] 
+  board[answer] !"O" && board[answer]
 end
 
     
