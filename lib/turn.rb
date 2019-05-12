@@ -9,15 +9,15 @@ def display_board(board)
 end
 
 
-def position
-  puts "What position would you like to play? Please choose 1-9."
-  answer = gets.strip
-  puts "Your answer is #{answer}"
-end
 
 
 def valid_move(board,[])
   if [] > 9
+    puts "Wrong number"
+  if [] < 0 
+    puts "Wrong number"
+  else
+    
     
     
     
