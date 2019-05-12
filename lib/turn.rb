@@ -10,7 +10,6 @@ end
 
 
 
-
 def valid_move(board,[])
   if [] > 9
     puts "Wrong number"
