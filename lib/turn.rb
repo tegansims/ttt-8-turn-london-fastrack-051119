@@ -2,6 +2,4 @@ def display_board(board)
   puts board
 end
 
-number = 7
-
-puts display_board(7)
+def valid_move
