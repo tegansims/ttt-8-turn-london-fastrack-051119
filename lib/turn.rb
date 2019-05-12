@@ -18,8 +18,11 @@ end
 
 def valid_move(board,answer)
   answer < 9 && answer >=0
-  board[answer] !"O" && board[answer] !"X"
 end
+
+def position_taken(board, answer)
+   board[answer] !"O" && board[answer] !"X"
+ end
 
     
     
