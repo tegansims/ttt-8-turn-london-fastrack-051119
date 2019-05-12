@@ -1,5 +1,6 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -11,11 +12,8 @@ end
 
 
 def valid_move(board,[])
-  if [] > 9
-    puts "Wrong number"
-  if [] < 0 
-    puts "Wrong number"
-  else
+  array = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+  if [] = #contained in array
     
     
     
