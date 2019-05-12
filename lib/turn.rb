@@ -26,5 +26,5 @@ def position_taken(board, answer)
 
 display_board(board)
 position
-    
+valid_move(board, answer)    
     
