@@ -24,6 +24,7 @@ def position_taken(board, answer)
    board[answer] !"O" && board[answer] !"X"
  end
 
-    
+display_board
+position
     
     
