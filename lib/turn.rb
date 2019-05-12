@@ -15,6 +15,9 @@ def position
   puts "Your answer is #{answer}"
 end
 
-position
 
 def valid_move(board,[])
+  if [] > 9
+    
+    
+    
