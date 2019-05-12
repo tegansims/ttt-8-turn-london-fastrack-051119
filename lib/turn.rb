@@ -3,3 +3,5 @@ def position
   answer = gets.strip
   puts "Your answer is #{answer}"
 end
+
+position
