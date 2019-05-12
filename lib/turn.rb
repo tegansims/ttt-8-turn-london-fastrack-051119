@@ -17,6 +17,8 @@ end
 
 
 def valid_move(board,answer)
+  puts "What position would you like to play? Please choose 1-9."
+  answer = gets.strip
   answer < 9 && answer >=0
 end
 
